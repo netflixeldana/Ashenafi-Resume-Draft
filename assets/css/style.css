@@ -1,5 +1,76 @@
 /* remove this code and add your own! */
+.bodying {
+  
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+#div1 {
+  background: hsla(273, 76%, 52%, 1);
+}
+
+#container {
+  width: 100%;
+  float: left;
+  margin-right: -400px;
+  position: relative;
+}
+
+#content {
+  
+  margin-right: 200px;
+}
+#sidebar {
+  width: 10%;
+  float: top;
+  background-color: hsl(0, 0%, 99%);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 250px;
+  border: 1px solid hsla(80, 18%, 93%, 0.25);
+
+}
+
 .greeting {
-    color: green;
-    font-size: 30px;
+  color: hsla(246, 100%, 25%, .75);
+  font-size: 22px;
+  text-align: center;
+}
+
+.listing {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.position  {
+  text-align: left;
+  font-style: italic;
+}
+
+/* p {
+  white-space: nowrap;
+} */
+
+.listing {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 75%;
   }
+
+  /* Match any class name that starts with icon */
+[class^="icon"] {
+  height: 1em;
+  width: 1em;
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+  fill: #fff;
+}
